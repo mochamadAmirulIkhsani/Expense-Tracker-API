@@ -47,7 +47,6 @@ model Transaction {
   amount      Float
   description String?
   date        DateTime
-  type        TransactionType
 
   userId      Int
   user        User @relation(fields: [userId], references: [id])

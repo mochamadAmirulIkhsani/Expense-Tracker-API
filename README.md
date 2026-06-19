@@ -8,7 +8,7 @@ Arsitektur Project (Pattern yang digunakan)
 Project ini menggunakan Modular Architecture (Feature-based Module Pattern)
 
 ### Contoh struktur
-
+```text
 src/
  ├── auth/
  ├── users/
@@ -16,6 +16,7 @@ src/
  ├── transactions/
  ├── prisma/
  └── common/
+ ```
 
 ### Kenapa menggunakan pattern ini?
 

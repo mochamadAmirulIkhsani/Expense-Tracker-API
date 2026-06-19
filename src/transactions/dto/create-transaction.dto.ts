@@ -6,7 +6,7 @@ import {
   IsString,
 } from 'class-validator';
 
-import { TransactionType } from '../../../generated/prisma/client';
+import { TransactionType } from '../../generated/prisma/client';
 
 export class CreateTransactionDto {
   @IsString()
